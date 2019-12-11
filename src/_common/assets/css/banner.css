@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    vertical-align: center;
+    position: absolute;
+    overflow: hidden;
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    z-index: 1;
+    top: 0;
+}
+.logo{
+    height: 75px;
+    width: auto;
+}
+.navbar{
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
