@@ -3,52 +3,62 @@
  * @author Daniel Bell
  */
 import React, { Component } from 'react';
+import Navbar from './navbar';
 import { Link } from 'react-router-dom';
 import '../_common/assets/css/home.css';
+import '../_common/assets/css/navigation.css';
 
 export default class Home extends Component {
     render() {
         return (
             <div>
+                <Navbar />
                 <div className="airport">
-                    <div className="content">Section Heading 1
-                        <p className="content-text">
+                    <div className="content">
+                        <div className="content-text">
+                            <h4 className="section-title">Section Heading 1</h4><br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio. Vestibulum et purus ornare, tristique magna vel,
                             dignissim justo. In mollis cursus lacus, ac mattis felis feugiat fermentum. Donec mattis lacus neque, nec interdum urna placerat in.
-                            Sed varius justo odio, dapibus consequat nulla dignissim id.
-                        </p>
+                            Sed varius justo odio, dapibus consequat nulla dignissim id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio.
+                            Vestibulum et purus ornare, tristique magna vel. Sed varius justo odio, dapibus consequat nulla dignissim id.
+                        </div>
                     </div>
-                    <Link to="/transit" role="button" className="btn btn-primary btn-lg" >Learn More</Link>
+                    <Link to="/transit" role="button" className="btn btn-secondary btn-lg" >Learn More</Link>
                 </div>
                 <div className="money">
-                    <div className="content">Section Heading 2
-                        <p className="content-text">
+                    <div className="content">
+                        <div className="content-text">
+                            <h4 className="section-title">Section Heading 2</h4><br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio. Vestibulum et purus ornare, tristique magna vel,
                             dignissim justo. In mollis cursus lacus, ac mattis felis feugiat fermentum. Donec mattis lacus neque, nec interdum urna placerat in.
-                            Sed varius justo odio, dapibus consequat nulla dignissim id.
-                        </p>
+                            Sed varius justo odio, dapibus consequat nulla dignissim id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio.
+                            Vestibulum et purus ornare, tristique magna vel. Sed varius justo odio, dapibus consequat nulla dignissim id.
+                        </div>
                     </div>
-                    <Link to="/" role="button" className="btn btn-primary btn-lg">Learn More</Link>
+                    <Link to="/" role="button" className="btn btn-secondary btn-lg">Learn More</Link>
                 </div>
                 <div className="camping">
-                    <div className="content">Section Heading 3
-                        <p className="content-text">
+                    <div className="content">
+                        <div className="content-text">
+                            <h4 className="section-title">Section Heading 3</h4><br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio. Vestibulum et purus ornare, tristique magna vel,
                             dignissim justo. In mollis cursus lacus, ac mattis felis feugiat fermentum. Donec mattis lacus neque, nec interdum urna placerat in.
-                            Sed varius justo odio, dapibus consequat nulla dignissim id.
-                        </p>
+                            Sed varius justo odio, dapibus consequat nulla dignissim id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio.
+                            Vestibulum et purus ornare, tristique magna vel. Sed varius justo odio, dapibus consequat nulla dignissim id.
+                        </div>
                     </div>
-                    <Link to="/" role="button" className="btn btn-primary btn-lg">Learn More</Link>
+                    <Link to="/" role="button" className="btn btn-secondary btn-lg">Learn More</Link>
                 </div>
                 <div className="globe">
-                    <div className="content">Section Heading 4
-                        <p className="content-text">
+                    <div className="content">
+                        <div className="content-text">
+                            <h4 className="section-title">Section Heading 4</h4><br />
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id commodo odio. Vestibulum et purus ornare, tristique magna vel,
                             dignissim justo. In mollis cursus lacus, ac mattis felis feugiat fermentum. Donec mattis lacus neque, nec interdum urna placerat in.
                             Sed varius justo odio, dapibus consequat nulla dignissim id.
-                        </p>
+                        </div>
                     </div>
-                    <Link to="/" role="button" className="btn btn-primary btn-lg">Learn More</Link>
+                    <Link to="/" role="button" className="btn btn-secondary btn-lg">Learn More</Link>
                 </div>
                 <div className="footer">
                     <div className="credit">

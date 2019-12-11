@@ -6,7 +6,7 @@ import Blog from './components/blog.jsx';
 import About from './components/about.jsx';
 import Resources from './components/resources.jsx';
 import Transit from './components/transit.jsx';
-import './App.css';
+import './_common/assets/css/navigation.css';
 
 function App() {
   return (
